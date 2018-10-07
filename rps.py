@@ -42,7 +42,7 @@ while comp<5 and player<5:
 		print("Oh ! The computer won")
 		comp+=1
 	elif you=='s' and com=='p':
-		print("{} , you win!!!!!!!!!!!!!!!!!!!!!!!!!!!".format(name))
+		print("{} , you win!".format(name))
 		player+=1
 	elif you=='s' and com=='r':
 		print("Oh ! The computer won")
@@ -54,5 +54,7 @@ if comp==5:
 	print("OVERALL CHAMPION : Computer ! :/ ")
 else:
 	print("OVERALL CHAMPION : {} ! *_* ".format(name))
+
+#End of code
 	
 	
