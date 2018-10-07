@@ -4,12 +4,10 @@ print("In this game you will play against the computer.")
 
 print("Rules: You and the computer both choose rock, paper or scissors. The winner is decided by these rules:\nRock blunts scissors\nPaper covers rock\nScissors cut paper")
 
-from random import randint
+from random import randint #importing randint function from random package
 name=raw_input("Hey there !What's your name?")
-count=0
-chance=1
-comp=0
-player=0
+count,chance,comp,player=0,1,0,0
+
 while comp<5 and player<5:
 
 	you=raw_input("What do you choose {} ? Rock(r), Paper(p) or scissor(s)?".format(name))
