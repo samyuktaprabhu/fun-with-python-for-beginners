@@ -56,5 +56,6 @@ if comp==5:
 	print("OVERALL CHAMPION : Computer ! :/ ")
 else:
 	print("OVERALL CHAMPION : {} ! *_* ".format(name))
+#end of code
 	
 	
